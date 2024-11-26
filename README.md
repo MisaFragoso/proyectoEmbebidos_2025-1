@@ -3,9 +3,9 @@
 Fundamentos de Sistemas Embebidos
 
 Autores: 
-Fragoso Alarcón Alejandro Misael
-López Muñoz José Luis
-Romero Trujillo Jerson
+Fragoso Alarcón Alejandro Misael.
+López Muñoz José Luis.
+Romero Trujillo Jerson.
 
 Este proyecto transforma tu **Raspberry Pi** en una consola de videojuegos retro totalmente funcional. Puedes navegar entre tus juegos utilizando un mando **DualShock** y disfrutar de una interfaz interactiva que soporta miniaturas de juegos y reproducción de música de fondo.
 
