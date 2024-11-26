@@ -58,9 +58,9 @@ Sigue estos pasos para configurar el proyecto en tu Raspberry Pi:
        git clone https://github.com/MisaFragoso/proyectoEmbebidos_2025-1.git
 
 2. **Instala las dependencias necesarias**:
-       sudo apt update
-       sudo apt install python3 python3-pip libsdl2-dev libpng-dev portaudio19-dev libpulse-dev libflac-dev zlib1g-dev joystick jstest build-essential pkg-config
-       pip3 install pygame
+       sudo apt update.
+       sudo apt install `python3 python3-pip libsdl2-dev libpng-dev portaudio19-dev libpulse-dev libflac-dev zlib1g-dev joystick jstest build-essential pkg-config
+       pip3 install pygame`.
 
 Configura Mednafen:
 
