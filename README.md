@@ -73,9 +73,13 @@ Configura Mednafen:
        Conecta el mando mediante USB y asegúrate de que sea detectado como js0:
        ls /dev/input/js0
 
-5. **Uso**
+5. **Uso**:
 Navega por el menú:
 
 Usa el joystick para desplazarte entre los juegos.
 Presiona X para iniciar una ROM.
 Presiona ESC para salir del juego y volver al menú.
+
+
+**Licencia**:
+Este proyecto está licenciado bajo la MIT License. Consulta el archivo LICENSE para más información.
