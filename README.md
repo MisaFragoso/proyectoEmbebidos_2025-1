@@ -1,6 +1,9 @@
 # Proyecto Final: Consola de videojuegos Retro
+
 Fundamentos de Sistemas Embebidos
-Autores: Fragoso Alarcón Alejandro Misael
+
+Autores: 
+Fragoso Alarcón Alejandro Misael
 López Muñoz José Luis
 Romero Trujillo Jerson
 
@@ -9,8 +12,7 @@ Este proyecto transforma tu **Raspberry Pi** en una consola de videojuegos retro
 ## Características
 
 - **Soporte para múltiples formatos de ROMs:** `.sfc`, `.smc`, `.gba`, `.fig`, `.zip`.
-- **Control por joystick (DualShock):** Navega por el menú, selecciona ROMs y sal del juego directamente desde el mando.
-- **Gestión de ROMs desde USB:** Detecta automáticamente una USB, compara las ROMs y copia las que faltan al directorio principal.
+- **Control por joystick (DualShock):** Navega por el menú, selecciona ROMs.
 - **Interfaz gráfica personalizable:** Incluye miniaturas de juegos, música de fondo y un diseño retro.
 - **Compatible con Mednafen:** Ejecuta juegos usando este potente emulador.
 
@@ -53,8 +55,7 @@ Estas bibliotecas son necesarias para el funcionamiento de Mednafen y para gesti
 Sigue estos pasos para configurar el proyecto en tu Raspberry Pi:
 
 1. **Clona este repositorio** en tu Raspberry Pi:
-       git clone https://github.com/tu_usuario/retro-emulador.git
-       cd retro-emulador
+       git clone https://github.com/MisaFragoso/proyectoEmbebidos_2025-1.git
 
 2. **Instala las dependencias necesarias**:
        sudo apt update
@@ -72,3 +73,9 @@ Configura Mednafen:
        Conecta el mando mediante USB y asegúrate de que sea detectado como js0:
        ls /dev/input/js0
 
+5. **Uso**
+Navega por el menú:
+
+Usa el joystick para desplazarte entre los juegos.
+Presiona X para iniciar una ROM.
+Presiona ESC para salir del juego y volver al menú.
